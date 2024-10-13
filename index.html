@@ -4,70 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eem & Jay Consultancy</title>
+    <title>Emm & Jay Consultancy</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
 <header>
+        <nav>
+	<ul>
+		<li><h3>Emm & Jay</h3></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
     <section class="hero">
         <img src="hero-image.png" alt="Hero Image" class="hero-img">
         <div class="hero-text">
             <h1>Emm and Jay</h1>
             <p>Make strides today with Emm and Jay</p>
-            <button class="btn">Book a Session</button>
-        </div>
-    
-
-        <nav>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#" class="btn">Start Your Journey</a></li>
-            </ul>
-        </nav>
-    </header>
-    </section>
-
-    <header>
-
-        <nav>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#" class="btn">Start Your Journey</a></li>
-            </ul>
-        </nav>
-    </header>
+        </div>   
+	 </section>
 
     <section class="services">
 
-
-
-        <div class="service-item">
-        <h2>About Eem & Jay Consultancy</h2>
+        <div class="reason2" id="about">
+        <h2>About Emm & Jay Consultancy</h2>
        <!-- <img src="your-photo.jpg" alt="Your Photo" class="profile-photo"> -->
-        <p>I specialize in helping individuals and businesses manage their finances effectively and efficiently. <br>My goal is to provide tailored accounting solutions that meet the unique needs of my clients.</p><br>
+        <p>we specialize in helping individuals and businesses manage their finances effectively and efficiently. <br>My goal is to provide tailored accounting solutions that meet the unique needs of our clients.</p><br>
 	<p>We handle your taxes from VAT, SHIF, Rental Income, Yearly Corporate Tax, Withholding Tax, NSSF, PAYE, Foreign Income tax  and everything in between.</p>
     </div>
-	
-
+	<br>
+        <div class="reason2">
         <h2>Mission</h2>
-        <div class="service-item">
-            <p>With the understanding of what you want from someone handling your money<br>
-we focus on wealth refinement and royalty.<br>
-we can ensure balance harmony renewal and growth.<br></p>
+            <p>With the understanding of what you want from someone handling your money;<br>
+we focus on royalty and wealth refinement to ensure balance, harmony, renewal and growth.</p>
         </div>
 
-
+<br>
+        <div class="reason2">
         <h2>Vision</h2>
-        <div class="service-item">
             <p>To be the most trusted and innovative accounting partner.<br> We will be forward thinking, integral and precise.<br></p>
         </div>
-
-        <h2>Services</h2><br>
+<br>
+       
+        <h2 id="services">Services</h2><br>
         <div class="service-item">
             <h3>1.Compliance & Basic Accounting</h3>
             <p>Regulations and financial record-keeping can feel like a constant struggle.<br> We relieve you of that burden.<br> We offer simple compliance and accounting services.<br> From tax filing to bookkeeping, we keep your business compliant and organized.<br> This lets you focus on what you do best.</p>
@@ -110,28 +96,31 @@ we can ensure balance harmony renewal and growth.<br></p>
         </div>
     </section>
 
-    <section class="mantra">
+    <section class="reason">
         <h3>Why Choose Us?</h3>
         <p>We believe in making finance simple.<br> We aim to help all businesses, big or small, with their finances.<br> We provide expert, personalized solutions.<br> They give you control and clarity over your finances.<br> If you want a partner who understands your needs, you’ve come to the right place.<br> We can help you succeed locally and globally.</p>
         <p>“Please let me meet who I am ready to meet...Please let me grow for the highest good of all.”</p>
     </section>
 
-    <section class="cta">
+    <section class="cta" id="contact">
         <h2>Get More Information</h2>
         <p>Sign up for my newsletter and receive regular updates and notices.</p>
-        <form>
-            <input type="text" placeholder="Your Name">
+        <form action="mailto:smbuthia.finance@gmail.com" method="post" enctype="text/plain">
+            <label>Emm & Jay Consultancy Website Client</label>
+	    <input type="text" placeholder="Your Name">
             <input type="email" placeholder="Your Email">
             <button type="submit">Sign Me Up!</button>
         </form>
     </section>
 
-    <section class="testimonials">
+  <!--  <section class="testimonials">
         <h2>Testimonials</h2>
         <blockquote>
             <footer><p>“My Consultation with Emm and Jay changed my life.”</p><br>- Michelle R.</footer>
         </blockquote>
     </section>
+
+-->
 
     <footer>
         <div class="footer-content">
@@ -154,7 +143,7 @@ we can ensure balance harmony renewal and growth.<br></p>
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>EmmandJay@example.com</p>
+                <button class="btn">smbuthia.finance@gmail.com</button>
             </div>
         </div>
     </footer>
